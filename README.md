@@ -1,4 +1,4 @@
-# Emotion Detection Application
+# Final Project
 
 A web application developed with Python, Flask, and IBM Watson NLP to predict emotions from textual input.
 
@@ -11,7 +11,7 @@ A web application developed with Python, Flask, and IBM Watson NLP to predict em
 
 ## Project Structure
 ```text
-final-project-embark/
+oaqjp-final-project-emb-ai/
 ├── EmotionDetection/
 │   ├── __init__.py
 │   └── emotion_detection.py
