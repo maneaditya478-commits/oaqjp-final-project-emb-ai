@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Detector</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script type="text/javascript" src="./static/mywebscript.js"></script>
+</head>
+<body class="container mt-5">
+    <div class="jumbotron">
+        <h1 class="display-4">Emotion Detector</h1>
+        <p class="lead">Enter text below to detect and analyze emotions using AI Watson NLP.</p>
+        <hr class="my-4">
+        <div class="form-group">
+            <label for="textToAnalyze"><strong>Enter the text you want to analyze for emotions:</strong></label>
+            <textarea class="form-control" id="textToAnalyze" rows="3" placeholder="Type statement here..."></textarea>
+        </div>
+        <button class="btn btn-primary btn-lg" onclick="RunSentimentAnalysis()">Run Emotion Detection</button>
+        <div class="mt-4 p-3 bg-light rounded border" id="system_response"></div>
+    </div>
+</body>
+</html>
